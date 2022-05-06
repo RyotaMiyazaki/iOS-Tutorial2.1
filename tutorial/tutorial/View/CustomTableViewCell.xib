@@ -32,21 +32,21 @@
                                 <rect key="frame" x="105" y="0.0" width="531" height="201"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="06g-CF-bZH">
-                                        <rect key="frame" x="0.0" y="0.0" width="531" height="133"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="531" height="137"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="751" verticalCompressionResistancePriority="1000" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9LG-nc-Bcj">
-                                        <rect key="frame" x="0.0" y="133" width="531" height="18"/>
-                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                        <rect key="frame" x="0.0" y="137" width="531" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                         <color key="textColor" systemColor="systemGray3Color"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="dDl-c1-qWs">
-                                        <rect key="frame" x="0.0" y="161" width="531" height="5"/>
+                                        <rect key="frame" x="0.0" y="163" width="531" height="3"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="5" id="Goh-oc-cRa"/>
+                                            <constraint firstAttribute="height" constant="3" id="Goh-oc-cRa"/>
                                         </constraints>
                                         <color key="progressTintColor" systemColor="systemPurpleColor"/>
                                     </progressView>
