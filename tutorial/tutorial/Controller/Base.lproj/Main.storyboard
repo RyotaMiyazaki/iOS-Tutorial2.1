@@ -22,23 +22,54 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QAd-0o-KF6">
+                                <rect key="frame" x="147" y="428" width="120" height="40"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="1KL-1K-hUq"/>
+                                    <constraint firstAttribute="height" constant="40" id="OH9-8L-ufv"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Udemy">
+                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="PkR-mA-nM5" kind="presentation" modalPresentationStyle="fullScreen" id="3ZS-FC-85v"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="QAd-0o-KF6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0V5-6d-w4S"/>
                             <constraint firstItem="VFQ-hF-eMh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5jr-Fy-YCG"/>
                             <constraint firstItem="VFQ-hF-eMh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="207" id="Tjq-XX-WU4"/>
+                            <constraint firstItem="QAd-0o-KF6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dON-GZ-7pq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="udemyButton" destination="QAd-0o-KF6" id="sS2-0X-pIa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="98"/>
+            <point key="canvasLocation" x="18.840579710144929" y="97.767857142857139"/>
+        </scene>
+        <!--UdemyStoryboard-->
+        <scene sceneID="HiX-NW-PeH">
+            <objects>
+                <viewControllerPlaceholder storyboardName="UdemyStoryboard" id="PkR-mA-nM5" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3jm-dM-jqz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="659" y="98"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
