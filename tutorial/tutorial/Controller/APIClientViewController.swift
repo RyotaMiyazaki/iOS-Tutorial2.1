@@ -13,7 +13,7 @@ class APIClientViewController: UIViewController {
     @IBOutlet private weak var tableView: UITableView!
     
     private let prefectureTableViewCell = "PrefectureTableViewCell"
-    var prefecturesList: [(name:String, cases: Int, deaths: Int)] = []
+    private var prefecturesList: [(name:String, cases: Int, deaths: Int)] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()

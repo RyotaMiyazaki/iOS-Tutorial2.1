@@ -65,6 +65,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="apiClientButton" destination="lQ6-5G-ZtE" id="jiw-p5-BJD"/>
                         <outlet property="udemyButton" destination="QAd-0o-KF6" id="sS2-0X-pIa"/>
                     </connections>
                 </viewController>
