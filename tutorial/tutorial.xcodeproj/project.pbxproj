@@ -19,6 +19,11 @@
 		713C31802824C54800D70E94 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C317E2824C54800D70E94 /* CustomTableViewCell.swift */; };
 		713C31812824C54800D70E94 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 713C317F2824C54800D70E94 /* CustomTableViewCell.xib */; };
 		713C31832824C9E400D70E94 /* LearningCourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C31822824C9E300D70E94 /* LearningCourseModel.swift */; };
+		713C3188282503E600D70E94 /* APIClientStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713C3187282503E600D70E94 /* APIClientStoryboard.storyboard */; };
+		713C318A2825043A00D70E94 /* APIClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C31892825043A00D70E94 /* APIClientViewController.swift */; };
+		713C318D2825065A00D70E94 /* PrefectureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C318B2825065A00D70E94 /* PrefectureTableViewCell.swift */; };
+		713C318E2825065A00D70E94 /* PrefectureTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 713C318C2825065A00D70E94 /* PrefectureTableViewCell.xib */; };
+		713C31902825084100D70E94 /* CovidCaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C318F2825084100D70E94 /* CovidCaseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		713C317E2824C54800D70E94 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		713C317F2824C54800D70E94 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		713C31822824C9E300D70E94 /* LearningCourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningCourseModel.swift; sourceTree = "<group>"; };
+		713C3187282503E600D70E94 /* APIClientStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = APIClientStoryboard.storyboard; sourceTree = "<group>"; };
+		713C31892825043A00D70E94 /* APIClientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientViewController.swift; sourceTree = "<group>"; };
+		713C318B2825065A00D70E94 /* PrefectureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefectureTableViewCell.swift; sourceTree = "<group>"; };
+		713C318C2825065A00D70E94 /* PrefectureTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrefectureTableViewCell.xib; sourceTree = "<group>"; };
+		713C318F2825084100D70E94 /* CovidCaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidCaseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +98,8 @@
 				713C31782824BA0900D70E94 /* UdemyViewController.swift */,
 				713C317C2824C0FC00D70E94 /* tabViewController.swift */,
 				713C317A2824BA4B00D70E94 /* UdemyStoryboard.storyboard */,
+				713C31892825043A00D70E94 /* APIClientViewController.swift */,
+				713C3187282503E600D70E94 /* APIClientStoryboard.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -97,6 +109,8 @@
 			children = (
 				713C317E2824C54800D70E94 /* CustomTableViewCell.swift */,
 				713C317F2824C54800D70E94 /* CustomTableViewCell.xib */,
+				713C318B2825065A00D70E94 /* PrefectureTableViewCell.swift */,
+				713C318C2825065A00D70E94 /* PrefectureTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -105,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				713C31822824C9E300D70E94 /* LearningCourseModel.swift */,
+				713C318F2825084100D70E94 /* CovidCaseModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -170,8 +185,10 @@
 				14B555622809A555003F8E17 /* LaunchScreen.storyboard in Resources */,
 				14B5555F2809A555003F8E17 /* Assets.xcassets in Resources */,
 				713C317B2824BA4B00D70E94 /* UdemyStoryboard.storyboard in Resources */,
+				713C318E2825065A00D70E94 /* PrefectureTableViewCell.xib in Resources */,
 				713C31812824C54800D70E94 /* CustomTableViewCell.xib in Resources */,
 				14B5555D2809A54D003F8E17 /* Main.storyboard in Resources */,
+				713C3188282503E600D70E94 /* APIClientStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +199,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713C318A2825043A00D70E94 /* APIClientViewController.swift in Sources */,
+				713C318D2825065A00D70E94 /* PrefectureTableViewCell.swift in Sources */,
 				713C31802824C54800D70E94 /* CustomTableViewCell.swift in Sources */,
+				713C31902825084100D70E94 /* CovidCaseModel.swift in Sources */,
 				713C317D2824C0FC00D70E94 /* tabViewController.swift in Sources */,
 				14B5555A2809A54D003F8E17 /* ViewController.swift in Sources */,
 				713C31832824C9E400D70E94 /* LearningCourseModel.swift in Sources */,

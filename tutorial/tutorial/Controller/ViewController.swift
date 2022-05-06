@@ -10,10 +10,12 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet private weak var udemyButton: UIButton!
+    @IBOutlet private weak var apiClientButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         udemyButton.layer.cornerRadius = 10.0
+        apiClientButton.layer.cornerRadius = 10.0
     }
 
 
